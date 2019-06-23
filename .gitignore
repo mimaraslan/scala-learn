@@ -71,5 +71,6 @@ nb-configuration.xml
 
 ### OS X ### 
 .DS_Store
-desktop.ini
-scala-core/.cache-main
+*.metadata
+*.metadata/
+.metadata/
