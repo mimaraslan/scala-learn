@@ -3,7 +3,7 @@ package _0005_if_else_if_statement
 object MainObject {
   def main(args: Array[String]): Unit = {
 
-    var myNumber: Int = 85
+    var myNumber: Int = 44
     if (myNumber >= 0 && myNumber < 50) {
       println("F")
     } else if (myNumber >= 50 && myNumber < 60) {

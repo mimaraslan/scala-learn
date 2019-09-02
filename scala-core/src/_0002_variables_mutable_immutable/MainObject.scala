@@ -5,13 +5,18 @@ object MainObject {
 
     //  Data Types: Boolean, Char, String, Byte, Short, Int, Long, Float, Double
 
-    var data = 100 // Mutable Variable
-    data = 101
+    var data1 = 100 // Mutable Variable
+    println(data1)
+    
+    data1 = 101
+    println(data1)
 
-    var data2: Int = 100
-
+    var data2: Int = 100 // Mutable Variable
+    println(data2)    
+    
     val data3 = 100 // Immutable Variable
     // data3 = 101  // Error: reassignment to val
-
+    println(data3)
+    
   }
 }  
