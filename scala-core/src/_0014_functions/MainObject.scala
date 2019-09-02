@@ -2,6 +2,7 @@ package _0014_functions
 
 object MainObject {
   def main(args: Array[String]): Unit = {
+    
     functionExample() // without = Operator
 
     var result = functionExample2() // with = Operator
@@ -23,15 +24,15 @@ object MainObject {
     println(result1 + "\n" + result2 + "\n" + result3)
   }
 
-  //--------------------------------------
+  //======================================
 
-  def functionExample() { // without = Operator
+  def functionExample() { // without = Operator like void
     println("This is a simple function")
   }
   //--------------------------------------
 
   def functionExample2() = { // with = Operator
-    var a = 10
+    var a = 20
     a
   }
   //--------------------------------------

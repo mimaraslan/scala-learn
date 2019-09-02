@@ -30,17 +30,21 @@ object MainObject {
       print(i + " ")
     }
 
-    print("\n foreach:\t")
+    print("\n foreach1:\n")
     var list = List(1, 2, 3, 4, 5, 6, 7, 8, 9) // Creating a list
     list.foreach {
       println // Print each element
     }
+    
+    print(" foreach2:\t")
     list.foreach(print)
     println
+    
+    print(" foreach3:\t")
     list.foreach((element: Int) => print(element + " ")) // Explicitly mentioning type of elements
 
     print("\n for to by:\t")
-    for (i <- 1 to 10 by 3) {
+    for (i <- 1 to 10 by 3) { // by keyword is used to skip the iteration
       print(i + " ")
     }
 
