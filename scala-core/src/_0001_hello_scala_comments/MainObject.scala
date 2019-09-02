@@ -19,7 +19,7 @@ object MainObject {
   spans three
   lines."""
   def main(args: Array[String]): Unit = {
-    print("Hello Scala")
-    println("Hello world!")
+    print("Scala")
+    println(" Hello world!")
   }
 }
