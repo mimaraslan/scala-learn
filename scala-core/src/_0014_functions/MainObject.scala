@@ -18,9 +18,9 @@ object MainObject {
     var result3 = functionExample5() // Calling without any value
     println(result1 + "\n" + result2 + "\n" + result3)
 
-    result1 = functionExample6(a = 15, b = 2) // Parameters names are passed during call
-    result2 = functionExample6(b = 15, a = 2) // Parameters order have changed during call
-    result3 = functionExample6(15, 2) // Only values are passed during call
+    result1 = functionExample6(a = 1, b = 4) // Parameters names are passed during call
+    result2 = functionExample6(b = 10, a = 20) // Parameters order have changed during call
+    result3 = functionExample6(2, 6) // Only values are passed during call
     println(result1 + "\n" + result2 + "\n" + result3)
   }
 
