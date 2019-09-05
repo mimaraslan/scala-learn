@@ -11,6 +11,7 @@ hs_err_pid*
 *.zip
 *.tar.gz
 *.rar
+*.cache-main
 
 ### Maven ###
 target/

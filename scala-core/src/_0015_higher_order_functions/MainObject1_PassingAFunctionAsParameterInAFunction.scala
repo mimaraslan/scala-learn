@@ -4,14 +4,14 @@ package _0015_higher_order_functions
 object MainObject1_PassingAFunctionAsParameterInAFunction {
 
   def main(args: Array[String]): Unit = {
-    functionExample(8, multiplyBy3)  // Passing a function as parameter
+    functionExample(8, multiplyBy3) // Passing a function as parameter
   }
 
-  def functionExample(myValue:Int, myFunc:Int=>AnyVal):Unit = {
-    println(myFunc(myValue))  // Calling that function
+  def functionExample(myValue: Int, myFunc: Int => AnyVal): Unit = {
+    println(myFunc(myValue)) // Calling that function
   }
 
-  def multiplyBy3(a:Int):Int = {
-    a*3
+  def multiplyBy3(a: Int): Int = {
+    a * 3
   }
 }

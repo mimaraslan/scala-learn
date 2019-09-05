@@ -2,7 +2,7 @@ package _0007_pattern_matching
 
 object MainObject {
   def main(args: Array[String]): Unit = {
-    
+
     var a = 2
     a match {
       case 1 => println("One")
@@ -12,15 +12,15 @@ object MainObject {
 
     var result = search("Hello")
     print(result)
-    
+
     result = search(1)
-  print(result)
+    print(result)
   }
 
   def search(a: Any): Any = a match {
-    case 1       => println("One")
-    case "Two"   => println("Two")
+    case 1 => println("One")
+    case "Two" => println("Two")
     case "Hello" => println("Hello Scala")
-    case _       => println("Other")
+    case _ => println("Other")
   }
 }  

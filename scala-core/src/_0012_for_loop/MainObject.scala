@@ -35,11 +35,11 @@ object MainObject {
     list.foreach {
       println // Print each element
     }
-    
+
     print(" foreach2:\t")
     list.foreach(print)
     println
-    
+
     print(" foreach3:\t")
     list.foreach((element: Int) => print(element + " ")) // Explicitly mentioning type of elements
 

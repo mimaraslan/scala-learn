@@ -3,7 +3,7 @@ package _0014_functions
 object MainObject {
   def main(args: Array[String]): Unit = {
 
-    println("functionExample1: " + functionExample1())  // without = Operator
+    println("functionExample1: " + functionExample1()) // without = Operator
 
     var result2 = functionExample2() // with = Operator
     println("functionExample2: " + result2)
@@ -30,18 +30,21 @@ object MainObject {
   def functionExample1() { // without = Operator like void
     println("This is a simple function")
   }
+
   //--------------------------------------
 
   def functionExample2() = { // with = Operator
     var a = 20
     a
   }
+
   //--------------------------------------
 
   def functionExample3(a: Int, b: Int) = { // Parameterized
     var c = a + b
     print(c)
   }
+
   //--------------------------------------
 
   def functionExample4(a: Int, b: Int): Int = { // Recursion
@@ -50,11 +53,13 @@ object MainObject {
     else
       a + functionExample4(a, b - 1)
   }
+
   //--------------------------------------
 
   def functionExample5(a: Int = 0, b: Int = 0): Int = { // Parameters with default values as 0
     a + b
   }
+
   //--------------------------------------
   def functionExample6(a: Int, b: Int): Int = { // Named Parameter
     a + b

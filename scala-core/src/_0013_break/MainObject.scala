@@ -1,4 +1,5 @@
 package _0013_break
+
 import scala.util.control.Breaks._ // Importing  package
 
 object MainObject {
@@ -18,7 +19,7 @@ object MainObject {
     println("Breakable method and Break inner Loop")
 
     for (i <- 1 to 3) {
-      breakable {  
+      breakable {
         for (j <- 1 to 3) {
           if (i == 2 & j == 2)
             break
