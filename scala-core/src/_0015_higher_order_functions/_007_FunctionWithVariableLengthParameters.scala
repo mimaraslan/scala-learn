@@ -1,7 +1,7 @@
 package _0015_higher_order_functions
 
 // Function with Variable Length Parameters
-object MainObject7_FunctionWithVariableLengthParameters {
+object _007_FunctionWithVariableLengthParameters {
 
   def main(args: Array[String]) = {
 

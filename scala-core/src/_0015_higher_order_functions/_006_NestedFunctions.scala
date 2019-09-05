@@ -1,7 +1,7 @@
 package _0015_higher_order_functions
 
 // Nested Functions
-object MainObject6_NestedFunctions {
+object _006_NestedFunctions {
 
   def main(args: Array[String]) = {
 

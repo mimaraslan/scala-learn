@@ -5,7 +5,7 @@ class Student1 {
   var name: String = null;
 }
 
-object MainObject1 {
+object _001_ClassInstanceVariables {
   def main(args: Array[String]) {
     var s = new Student1() // Creating an object
     println(s.id + " " + s.name);

@@ -1,7 +1,7 @@
 package _0015_higher_order_functions
 
 // Passing a Function as Parameter in a Function
-object MainObject1_PassingAFunctionAsParameterInAFunction {
+object _001_PassingAFunctionAsParameterInAFunction {
 
   def main(args: Array[String]): Unit = {
     functionExample(8, multiplyBy3) // Passing a function as parameter

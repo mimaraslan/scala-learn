@@ -1,7 +1,7 @@
 package _0015_higher_order_functions
 
 // Multiline Expression in Function
-object MainObject4_MultilineExpressionInFunction {
+object _004_MultilineExpressionInFunction {
   def main(args: Array[String]) = {
 
     var result1 = add1(10, 5)

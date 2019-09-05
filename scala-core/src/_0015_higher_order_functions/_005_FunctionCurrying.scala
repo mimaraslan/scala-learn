@@ -1,7 +1,7 @@
 package _0015_higher_order_functions
 
 // Function Currying
-object MainObject5_FunctionCurrying {
+object _005_FunctionCurrying {
   def main(args: Array[String]) = {
 
     var result = add(2)(3)

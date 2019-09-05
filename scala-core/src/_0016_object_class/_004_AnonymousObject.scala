@@ -7,7 +7,7 @@ class Arithmetic {
   }
 }
 
-object MainObject4_AnonymousObject {
+object _004_AnonymousObject {
   def main(args: Array[String]) {
     new Arithmetic().add(2, 3);
   }
