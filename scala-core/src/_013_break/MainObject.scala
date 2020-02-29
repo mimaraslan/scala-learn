@@ -14,7 +14,7 @@ object MainObject {
         else
           println(i)
       }
-    }
+    } // END breakable
 
     println("Breakable method and Break inner Loop")
 
@@ -25,7 +25,7 @@ object MainObject {
             break
           println(i + " " + j)
         }
-      }
+      } // END breakable
     }
 
   }
